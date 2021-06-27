@@ -13,8 +13,8 @@ export default function App() {
       <AppStack.Navigator
         headerMode='none'
       >
-        <AppStack.Screen name='Onboard Screen' component={ OnboardingScreens } />
-        <AppStack.Screen name='Login Screen' component={ LoginScreen } />
+        <AppStack.Screen name='OnboardScreen' component={ OnboardingScreens } />
+        <AppStack.Screen name='Login' component={ LoginScreen } />
       </AppStack.Navigator>
     </NavigationContainer>
   )
